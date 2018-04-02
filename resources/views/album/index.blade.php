@@ -2,7 +2,6 @@
 
 @section('content')
 <h3>Albums</h3>
-
     <div class="row">
         @forelse ($albums as $album)
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -15,7 +14,5 @@
         @empty
             <p>No album Available Here</p>
         @endforelse
-
     </div>
-
 @endsection
